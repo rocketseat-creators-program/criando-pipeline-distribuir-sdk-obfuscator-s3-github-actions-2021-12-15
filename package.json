@@ -1,0 +1,12 @@
+{
+    "name": "criando-pipeline-distribuir-sdk-obfuscator-s3-github-actions-2021-12-15",
+    "version": "1.0.0",
+    "description": "Rocketseat Expert Club - Ismael Ash",
+    "main": "upload-s3.js",
+    "dependencies": {
+        "aws-sdk": "^2.1046.0",
+        "fs": "0.0.1-security",
+        "javascript-obfuscator": "^3.0.0",
+        "yargs": "^17.3.0"
+    }
+}
