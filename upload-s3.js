@@ -38,6 +38,6 @@ function uploadFileToS3(content, bucketName, directoryWithFilenameAndExtesion) {
   });
 }
 
-const MYSDK_CODE = fs.readSync("./mysdk.js")
+const MYSDK_CODE = fs.readSync("./mysdk.js", {encoding:'utf8'})
 const CODE_OBFUSCATED = obfuscatorIO(MYSDK_CODE)
 uploadFileToS3(CODE_OBFUSCATED, "pipeline-sdk-ecr", "mysdk.js")
