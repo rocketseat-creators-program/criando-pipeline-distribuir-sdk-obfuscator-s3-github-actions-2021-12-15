@@ -2,14 +2,14 @@
 function MySDK() {
   return {
     init: function () {
-      console.log("MySDK works");
+      return `MySDK works`
     },
     yourName: function (name) {
-        console.log("MySDK works", name);
-      },
+      return `works ${name}`
+    },
   };
 }
 
-function initV2(){
-    return "new init works"
+function initV2() {
+  return "new init works";
 }
