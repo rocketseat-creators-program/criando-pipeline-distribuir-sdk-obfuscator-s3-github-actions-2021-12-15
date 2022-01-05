@@ -4,6 +4,9 @@ function MySDK() {
     init: function () {
       console.log("MySDK works");
     },
+    yourName: function (name) {
+        console.log("MySDK works", name);
+      },
   };
 }
 
